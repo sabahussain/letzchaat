@@ -1,0 +1,22 @@
+@font-face{
+       font-family: Ubuntu;
+       src: url('../fonts/Ubuntu-R.ttf');
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Ubuntu;
+}
+
+.navbar-default {
+    background-color: #9370DB;
+    border-color: #696969;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color:#696969 ;
+    color: #FFFFFF;
+}
